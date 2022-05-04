@@ -1,0 +1,49 @@
+body {
+  background-image: url("assets/image/milivoj-kuhar-7NJE_JbVReo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  background-color: #F6E7D8;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 30px;
+  border: 2px solid #172774;
+  font-family: 'Comfortaa', cursive;
+  position: fixed;
+}
+
+.par {
+  display: none;
+  font-family: 'Comfortaa', cursive;
+  font-size: 28px;
+  background-color: #F6E7D8;
+  margin-top: 500px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #D9534F;
+  text-align: center;
+  width: 60%;
+}
+
+@media all and (max-width: 500px) {
+  .btn  {
+    font-size: 25px;
+    margin: 15px;
+  
+  }
+
+  .par  {
+    font-size: 23px; 
+  }
+}
